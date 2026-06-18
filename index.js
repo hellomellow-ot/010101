@@ -1,5 +1,7 @@
 "use strict";
 
+console.log("Mineflayer:", require("mineflayer/package.json").version);
+
 const { addLog, getLogs } = require("./logger");
 const mineflayer = require("mineflayer");
 const { Movements, pathfinder, goals } = require("mineflayer-pathfinder");
